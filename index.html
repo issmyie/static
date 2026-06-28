@@ -168,5 +168,100 @@
         .details-section .detail-item .value {
             color: #1a1a2e;
         }
-         </style> 
+
+         .about-hero {
+            background: linear-gradient(135deg, #16213e, #0f3460);
+            color: #fff;
+            padding: 3rem 0 2.5rem;
+            border-radius: 0 0 2rem 2rem;
+            margin-bottom: 2.5rem;
+        }
+        .about-img {
+            border-radius: 1.5rem;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+        }
+        .about-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #2d2d3f;
+        }
+
+        /* form page */
+        .form-hero {
+            background: linear-gradient(135deg, #1a1a2e, #0f3460);
+            color: #fff;
+            padding: 3rem 0 2.5rem;
+            border-radius: 0 0 2rem 2rem;
+            margin-bottom: 2.5rem;
+        }
+        .form-card {
+            background: #fff;
+            border-radius: 1.5rem;
+            padding: 2.5rem;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+        }
+        .form-card label {
+            font-weight: 600;
+            color: #1a1a2e;
+        }
+        .form-card .form-control,
+        .form-card .form-select {
+            border-radius: 0.75rem;
+            border: 1px solid #dee2e6;
+            padding: 0.65rem 1rem;
+            transition: border-color 0.2s;
+        }
+        .form-card .form-control:focus,
+        .form-card .form-select:focus {
+            border-color: #ffc107;
+            box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+        }
+        .form-card .btn-submit {
+            background-color: #ffc107;
+            color: #1a1a2e;
+            font-weight: 700;
+            padding: 0.7rem 2.5rem;
+            border-radius: 50px;
+            border: none;
+            transition: background 0.2s;
+        }
+        .form-card .btn-submit:hover {
+            background-color: #e0a800;
+        }
+         .footer {
+            background: #1a1a2e;
+            color: #cbd5e1;
+            padding: 1.8rem 0;
+            margin-top: 3rem;
+            border-radius: 2rem 2rem 0 0;
+        }
+        .footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* responsive tweaks */
+        @media (max-width: 576px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .details-section .detail-item {
+                flex-wrap: wrap;
+            }
+            .details-section .detail-item .label {
+                width: 100%;
+                margin-bottom: 0.1rem;
+            }
+            .form-card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
 </head>
+<body>
